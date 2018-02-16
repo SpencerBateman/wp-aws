@@ -51,3 +51,26 @@ Answer the questions as follows
 * Reload privilege tables now: Y
 
 ### Install Wordpress
+
+`cd /var/www/html`
+
+`wget http://wordpress.org/latest.tar.gz`
+
+
+Uncompress the zipped file
+
+`tar -xzvf latest.tar.gz`
+
+move all of the files to it's parent folder
+
+`mv *.* ..`
+
+create the `wp-config.php` by renaming `wp-config-sample.php` and changing the following values.
+
+`define('DB_NAME', 'YOUR_DB_NAME');`
+
+`define('DB_USER', 'root');
+
+`define('DB_PASSWORD', 'YOUR_PASSWORD');`
+
+`define('DB_HOST', 'localhost');`
