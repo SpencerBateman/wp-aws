@@ -69,7 +69,7 @@ create the `wp-config.php` by renaming `wp-config-sample.php` and changing the f
 
 `define('DB_NAME', 'YOUR_DB_NAME');`
 
-`define('DB_USER', 'root');
+`define('DB_USER', 'root');`
 
 `define('DB_PASSWORD', 'YOUR_PASSWORD');`
 
